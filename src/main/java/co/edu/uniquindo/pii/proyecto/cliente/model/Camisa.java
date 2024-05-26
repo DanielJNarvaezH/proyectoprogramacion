@@ -1,3 +1,5 @@
+package co.edu.uniquindo.pii.proyecto.cliente.model;
+
 public class Camisa extends Producto implements Cloneable {
     private Camisa(Builder builder) {
         this.talla = builder.talla;
@@ -37,5 +39,14 @@ public class Camisa extends Producto implements Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new AssertionError(); // Nunca debería suceder porque estamos implementando Cloneable
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Camisa [talla=" + talla + ", color=" + color + ", precio=" + precio + "]";
+    }
+
+    public void setPrecio(int i) {
+        
     }
 }

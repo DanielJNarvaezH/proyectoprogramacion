@@ -8,6 +8,5 @@ module co.edu.uniquindo.pii.proyecto.cliente {
     opens co.edu.uniquindo.pii.proyecto.cliente.model;
     exports co.edu.uniquindo.pii.proyecto.cliente.model;
 
-    opens co.edu.uniquindo.pii.proyecto.cliente.controller;
-    exports co.edu.uniquindo.pii.proyecto.cliente.controller;
+    
 }
