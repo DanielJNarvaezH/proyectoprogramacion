@@ -18,6 +18,6 @@ public class Pedido extends SujetoObserver{
 
     public void eliminarProducto(Producto producto){
         listaProductos.remove(producto);
-        System.out.println(cliente);
+        notificarObservador(cliente);
     }
 }

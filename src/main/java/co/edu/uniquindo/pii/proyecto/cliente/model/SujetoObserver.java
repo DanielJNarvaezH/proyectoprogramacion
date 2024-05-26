@@ -6,7 +6,7 @@ import java.util.List;
 public class SujetoObserver {
     private List<Observer> observers = new ArrayList<>();
 
-    public void agragarObservador(Observer observer){
+    public void agregarObservador(Observer observer){
         observers.add(observer);
     }
 
